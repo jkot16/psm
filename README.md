@@ -1,7 +1,6 @@
 # PSM – Fundamentals of Computer Simulation (PJATK, 2025)
 
 This repository contains lab assignments from the "Fundamentals of Computer Simulation" course at PJATK.
-
 Each project simulates a physical system using basic numerical methods in Java.
 
 ## Labs Overview
