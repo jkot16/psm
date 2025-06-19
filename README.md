@@ -10,4 +10,9 @@ Each project simulates a physical system using basic numerical methods in Java.
   Euler Method and Midpoint (RK2). Includes velocity, position, and time tracking.
 
 ---
--
+
+- **Lab 3 – Pendulum Energy Simulation**  
+  Simulates the motion of a simple pendulum using Heun and RK4 methods.  
+  Tracks angular dynamics and energy conservation over time.  
+  *Goal: Understand energy transformations and numerical stability in oscillatory systems.*
+
