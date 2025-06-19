@@ -7,7 +7,8 @@ Each project simulates a physical system using basic numerical methods in Java.
 
 - **Lab 2 – Projectile Motion Simulation**  
   Simulates 2D projectile motion with and without air resistance using two numerical methods:  
-  Euler Method and Midpoint (RK2). Includes velocity, position, and time tracking.
+  Euler Method and Midpoint (RK2). Includes velocity, position, and time tracking.  
+  *Goal: Learn how to model and simulate real-world motion using numerical integration methods.*
 
 ---
 
@@ -16,3 +17,4 @@ Each project simulates a physical system using basic numerical methods in Java.
   Tracks angular dynamics and energy conservation over time.  
   *Goal: Understand energy transformations and numerical stability in oscillatory systems.*
 
+---
