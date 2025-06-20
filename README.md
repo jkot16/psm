@@ -20,5 +20,10 @@ Each project simulates a physical system using basic numerical methods in Java.
 ![improvedEuler](https://github.com/user-attachments/assets/d9708dcc-2611-4d95-b4d0-eb88fee19324)
 ![rk4](https://github.com/user-attachments/assets/91d9ef8f-deec-4ed8-8034-d41226d286e5)
 
+---
+
+- **Lab 4 – Rolling Objects on an Incline**  
+  Simulates the motion and energy of rolling objects (sphere vs. cylinder) on an inclined plane using Midpoint integration. Includes position, rotation angle, and total energy tracking with live charts.  
+  *Goal: Understand the dynamics of rotational motion and compare how moment of inertia affects movement and energy conservation.*
 
 ---
