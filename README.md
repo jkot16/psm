@@ -31,3 +31,10 @@ Each project simulates a physical system using basic numerical methods in Java.
 ![centerMass](https://github.com/user-attachments/assets/2ac02dfb-3fc1-4fda-9a41-eb3f0bf7a693)
 
 ---
+- **Lab 5 – Moon–Earth–Sun System Simulation
+Simulates the motion of the Earth and the Moon orbiting around the Sun using the Midpoint (Improved Euler) method.
+Visualizes relative trajectories and exaggerates the Moon’s orbit for clarity.
+Tracks positions, velocities, and interactions due to gravitational forces between all three bodies.
+Goal: Explore multi-body gravitational dynamics and numerical integration stability in orbital mechanics.
+
+---
