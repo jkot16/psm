@@ -46,5 +46,7 @@ Each project simulates a physical system using basic numerical methods in Java.
   Tracks potential, kinetic, and total energies over time.  
   Includes interactive charts of energy evolution and string shapes at multiple time snapshots.  
   *Goal: Practice numerical modeling of wave phenomena and energy conservation in discretized systems. Learn to visualize simulation results with custom charts.*
+  
+![shapes](https://github.com/user-attachments/assets/1144d481-5f37-4d70-9aa1-f33cd3b1d5a0)
 
 ---
