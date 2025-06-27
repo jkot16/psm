@@ -40,3 +40,11 @@ Each project simulates a physical system using basic numerical methods in Java.
 ![trajectory](https://github.com/user-attachments/assets/6533d753-7e47-4f71-b870-94878540e0c7)
 
 ---
+
+- **Lab 6 – String Wave Simulation**  
+  Simulates wave motion on a discretized string using finite-difference methods with explicit time-stepping.  
+  Tracks potential, kinetic, and total energies over time.  
+  Includes interactive charts of energy evolution and string shapes at multiple time snapshots.  
+  *Goal: Practice numerical modeling of wave phenomena and energy conservation in discretized systems. Learn to visualize simulation results with custom charts.*
+
+---
