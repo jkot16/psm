@@ -51,3 +51,12 @@ Each project simulates a physical system using basic numerical methods in Java.
 ![energies](https://github.com/user-attachments/assets/bdafce4d-a501-4b06-b0b3-f048f869e013)
 
 ---
+
+- **Lab 7 – Steady-State Heat Distribution on a Square Plate**  
+  Simulates the steady-state temperature distribution on a 2D square plate using the finite-difference method and iterative relaxation.  
+  Fixed temperatures are applied at all edges (Dirichlet boundary conditions), and the interior values converge until equilibrium.  
+  Renders the final temperature field as a color map in a Java Swing window.  
+  *Goal: Learn to model and visualize stationary solutions of Laplace's equation in 2D using numerical methods.*
+
+
+---
