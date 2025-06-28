@@ -58,5 +58,6 @@ Each project simulates a physical system using basic numerical methods in Java.
   Renders the final temperature field as a color map in a Java Swing window.  
   *Goal: Learn to model and visualize stationary solutions of Laplace's equation in 2D using numerical methods.*
 
+![temperature](https://github.com/user-attachments/assets/de2fc0be-771d-47c0-93ec-032aee1281f6)
 
 ---
