@@ -14,39 +14,38 @@ import java.util.Arrays;
 
 public class Main {
 
-    // parametry Lorenza
+
     static final double A = 10.0, B = 25.0, C = 8.0 / 3.0;
 
-    // dt i maks. liczba kroków
+
     static final double dt = 0.03;
-    static final int    STEPS = 5_000;      // nie musi być 20 000
-    static final double LIMIT = 100.0;      // próg „rozbiegania”
+    static final int STEPS = 5_000;
+    static final double LIMIT = 100.0;
 
     public static void main(String[] args) {
 
-        double[][] euler    = integrateEuler(1, 1, 1);
+        double[][] euler = integrateEuler(1, 1, 1);
         double[][] midpoint = integrateMidpoint(1, 1, 1);
-        double[][] rk4      = integrateRK4(1, 1, 1);
+        double[][] rk4 = integrateRK4(1, 1, 1);
 
         SwingUtilities.invokeLater(() -> createAndShowChart(euler, midpoint, rk4));
     }
 
-    /* ---------- rysowanie ---------- */
+
 
     private static void createAndShowChart(double[][] euler,
                                            double[][] midpoint,
                                            double[][] rk4) {
 
-        XYSeries sEuler    = toSeries("Euler ("    + euler.length    + " steps)", euler);
+        XYSeries sEuler = toSeries("Euler ("    + euler.length    + " steps)", euler);
         XYSeries sMidpoint = toSeries("Midpoint (" + midpoint.length + " steps)", midpoint);
-        XYSeries sRK4      = toSeries("RK4 ("      + rk4.length      + " steps)", rk4);
+        XYSeries sRK4 = toSeries("RK4 ("      + rk4.length      + " steps)", rk4);
 
         XYSeriesCollection dataset = new XYSeriesCollection();
         dataset.addSeries(sEuler);
         dataset.addSeries(sMidpoint);
         dataset.addSeries(sRK4);
 
-        // jaśniejszy motyw
         ChartFactory.setChartTheme(StandardChartTheme.createLegacyTheme());
         JFreeChart chart = ChartFactory.createXYLineChart(
                 "Lorenz system",
@@ -72,17 +71,15 @@ public class Main {
 
     private static XYSeries toSeries(String name, double[][] data) {
         XYSeries s = new XYSeries(name);
-        for (double[] p : data) s.add(p[0], p[2]);   // z(x)
+        for (double[] p : data) s.add(p[0], p[2]);
         return s;
     }
 
-    /* ---------- równania Lorenza ---------- */
 
     static double fx(double x, double y, double z) { return A * (y - x); }
     static double fy(double x, double y, double z) { return x * (B - z) - y; }
     static double fz(double x, double y, double z) { return x * y - C * z; }
 
-    /* ---------- integratory ---------- */
 
     static double[][] integrateEuler(double x0, double y0, double z0) {
         double[][] buf = new double[STEPS][3];
@@ -148,7 +145,6 @@ public class Main {
         return Arrays.copyOf(buf, n);
     }
 
-    /* ---------- pomoc ---------- */
 
     private static boolean isUnstable(double x, double y, double z) {
         return Math.abs(x) > LIMIT || Math.abs(y) > LIMIT || Math.abs(z) > LIMIT
