@@ -61,11 +61,14 @@ Each project simulates a physical system using basic numerical methods in Java.
 ![temperature](https://github.com/user-attachments/assets/de2fc0be-771d-47c0-93ec-032aee1281f6)
 
 ---
+
 - **Lab 8 – Lorenz System Simulation**  
   Simulates the chaotic Lorenz system of differential equations using three numerical methods:  
   Euler, Midpoint (RK2), and Runge–Kutta 4 (RK4).  
   Plots the x–z projection of each trajectory to compare numerical stability and divergence.  
   *Goal: Understand chaotic dynamics, sensitivity to initial conditions, and accuracy of integration methods for stiff systems.*
+  
+![system](https://github.com/user-attachments/assets/18f60cc2-0772-4ee7-8bf9-22f2b1e67c3b)
 
 
 ---
