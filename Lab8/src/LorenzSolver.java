@@ -1,17 +1,17 @@
 public final class LorenzSolver {
 
-    public static final double SIGMA = 10.0;
-    public static final double RHO   = 25.0;
+    public static final double SIGMA= 10.0;
+    public static final double RHO = 25.0;
     public static final double BETA  = 8.0 / 3.0;
 
-    public static final double TIME_STEP        = 0.03;
-    public static final int    MAX_STEPS        = 5_000;
+    public static final double TIME_STEP = 0.03;
+    public static final int MAX_STEPS = 5_000;
     public static final double DIVERGENCE_LIMIT = 100.0;
 
     public static void main(String[] args) {
-        double[][] eulerPath    = integrateEuler   (1.0, 1.0, 1.0);
+        double[][] eulerPath = integrateEuler   (1.0, 1.0, 1.0);
         double[][] midpointPath = integrateMidpoint(1.0, 1.0, 1.0);
-        double[][] rk4Path      = integrateRK4     (1.0, 1.0, 1.0);
+        double[][] rk4Path = integrateRK4     (1.0, 1.0, 1.0);
 
         printSummary("Euler   ", eulerPath);
         printSummary("Midpoint", midpointPath);
