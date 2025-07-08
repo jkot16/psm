@@ -78,5 +78,7 @@ Each project simulates a physical system using basic numerical methods in Java.
   Applies iterative string rewriting to produce complex patterns of growth.  
   Renders the final structure in Java Swing using turtle-graphics-style interpretation of symbols.  
   *Goal: Learn procedural generation techniques with formal grammars and visualize self-similar structures like plants.*
+
   
+![plant](https://github.com/user-attachments/assets/4c641587-7f14-41e1-b2c1-af32e20a9602)
 
