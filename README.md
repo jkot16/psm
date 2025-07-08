@@ -72,3 +72,11 @@ Each project simulates a physical system using basic numerical methods in Java.
 
 
 ---
+
+- **Lab 9 – Fractal Plant with L-System**  
+  Generates and renders a fractal "plant" structure using an L-system with branching rules.  
+  Applies iterative string rewriting to produce complex patterns of growth.  
+  Renders the final structure in Java Swing using turtle-graphics-style interpretation of symbols.  
+  *Goal: Learn procedural generation techniques with formal grammars and visualize self-similar structures like plants.*
+  
+
