@@ -82,3 +82,15 @@ Each project simulates a physical system using basic numerical methods in Java.
   
 ![plant](https://github.com/user-attachments/assets/4c641587-7f14-41e1-b2c1-af32e20a9602)
 
+---
+
+- **Lab 10 – Conway's Game of Life**  
+  Implements Conway’s Game of Life with customizable birth and survival rules (e.g. B3/S23).  
+  Features an interactive Swing GUI with start/pause, clear, randomize, and rule-setting controls.  
+  Users can toggle cells by clicking, visualize generations in real time, and experiment with custom rule sets.  
+  *Goal: Learn about cellular automata, emergent behavior from simple rules, and GUI-based simulation control.*
+
+<img width="496" height="554" alt="gameOfLife" src="https://github.com/user-attachments/assets/da66d3a3-106d-439a-9785-c3d63d6d9b6c" />
+
+
+
